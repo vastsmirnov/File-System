@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">File System</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="file_name_field_hint">File name</string>
+    <string name="file_content_field_hint">File content</string>
+    <string name="save_file_mb">Save file</string>
+    <string name="file_list_title">File list</string>
+    <string name="file_list_empty_message">List empty</string>
+    <string name="add_file_title">Add file</string>
+    <string name="clear_fields_mb">Clear fields</string>
+    <string name="remove_file_title_mb">delete</string>
 </resources>

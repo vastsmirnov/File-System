@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/file_item_number_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:layout_weight="10"
+        tools:text="1" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/file_item_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textSize="18sp"
+        android:layout_weight="80"
+        tools:text="file_name" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/file_item_delete_mb"
+        android:layout_weight="10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="@string/remove_file_title_mb" />
+
+</LinearLayout>
